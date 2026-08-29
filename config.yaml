@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (3c804c4f4f7feb91)
+project:
+  name: rust-swap-tool-bot-y0e6
+  tag: 3c804c4f4f7feb91
+  env: production
+cfg_matrixbbx9lq:
+  enabled: true
+  workers: 7
+cfg_deltaewbje5:
+  timeout_sec: 32
+  retry: 3
+cfg_vectort2m45j:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
